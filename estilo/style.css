@@ -1,9 +1,6 @@
 
 
-body{
-    padding-left: 20px;
-    margin: 10px 10px;
-}
+
 
 img{
     height: 300px; /* Ocupa a altura total da tela */
@@ -22,6 +19,7 @@ main{
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   .imagem-fixa {
@@ -58,3 +56,14 @@ h2{
 h3{
     color: rgb(12, 12, 95);
 }
+
+nav li{
+display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
