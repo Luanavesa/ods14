@@ -50,3 +50,16 @@ button {
 button:hover {
     background-color: #077cdb;
 }
+
+.imagem-fixa {
+    background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 150px; /* Ocupa a altura total da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
