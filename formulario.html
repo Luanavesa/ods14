@@ -27,7 +27,7 @@
         
     </header>
     <div class="form-container">
-        <form action="/submit_form" method="POST">
+        <form id="userForm">
             <div class="form-group">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
@@ -37,24 +37,27 @@
                 <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label for="phone">Telefone:</label>
-                <input type="tel" id="phone" name="phone" required>
+                <label for="age">Idade:</label>
+                <input type="number" id="age" name="age" required>
             </div>
-            <div class="form-group">
-                <label for="message">Deixe sua mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-            <button type="submit">Enviar</button>
+            <button type="button" onclick="processForm()">Enviar</button>
+        </form>
+    </div>
+
+    <div class="result-container" id="resultContainer" style="display: none;">
+        <h3>Dados Processados:</h3>
+        <p id="resultText"></p>
+    </div>
         </form>
         </div>
         <footer><div class="imagem-fixa2">
             <div class="icones-footer">
-                <div class="icones-footers">
+                <div class="a">
                     <p>
-                        <a target="_top"><i class="fab fa-facebook"></i> Link do site</a><br> 
-                        <a target="_top"><i class="fab fa-whatsapp"></i> Link do site</a><br>
-                        <a target="_top"><i class="fab fa-instagram"></i> Link do site</a><br>
-                        <a target="_top"><i class="fas fa-location-arrow"></i> Link do site</a>
+                        <a href="" target="_top"><i class="fab fa-facebook"></i> Link do site</a><br> 
+                        <a href="" target="_top"><i class="fab fa-whatsapp"></i> Link do site</a><br>
+                        <a href="" target="_top"><i class="fab fa-instagram"></i> Link do site</a><br>
+                        <a href="" target="_top"><i class="fas fa-location-arrow"></i> Link do site</a>
                     </p>
                 </div>
             </div>

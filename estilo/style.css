@@ -1,6 +1,13 @@
 
 
 
+img2{
+    height: 300px; /* Ocupa a altura total da tela */
+    width: 300px; /* Ocupa a largura total da tela */
+    display: block;     /* Torna a imagem um bloco para usar margin */
+    margin-left: auto;  /* Margem esquerda automática */
+    margin-right: auto
+}
 
 img{
     height: 300px; /* Ocupa a altura total da tela */
@@ -52,6 +59,7 @@ body {
     margin: 170px;
     font-size: 16px;
     text-decoration: none;
+    box-decoration-break: none;
 }
 
 /* Estilo para o h1 sobre o GIF */
@@ -115,6 +123,7 @@ header{
     background-color: #0f014e;
 }
 
+<<<<<<< HEAD
 .videos {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -129,3 +138,18 @@ header{
     
 }
 
+=======
+a {
+    padding: 5px;
+    font-weight: 600;
+    text-decoration:none;
+    color: hsl(0, 0%, 100%);
+    
+
+}
+a:hover{
+    color: #00b3ff;
+    transition: all 0.8s;
+    transition:0.8s ease;}
+    
+>>>>>>> 246043391f5ea84c83e99d61009f280b9327dc7d
