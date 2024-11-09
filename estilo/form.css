@@ -25,9 +25,19 @@
     font-weight: 600;
     text-decoration:none;
     color: hsl(0, 0%, 100%);
+    
 
 }
-
+#nav_main a:hover{
+    color: #fdfdfd;
+    transition: all 0.8s;
+    border-bottom: 2px solid #f4f4f4;
+    transition: border-bottom-color 0.8s ease;
+}
+.menu_atual{
+    border-bottom: 2px solid #f4f4f4;
+    transition: border-bottom-color 0.8s eas
+}
 header{
     height: 200px;
     width: 100%;
