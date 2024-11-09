@@ -33,6 +33,7 @@ body {
     justify-content: center;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 .imagem-fixa2 {
     background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
@@ -45,12 +46,16 @@ body {
     justify-content: ;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 .icones-footer {
-    color: blue;
-    margin: 0 10px;
+    color: white;
+    margin: 170px;
     font-size: 16px;
     text-decoration: none;
+}
+.icones-footers a:hover {
+    
 }
 /* Estilo para o h1 sobre o GIF */
 .img h1 {
