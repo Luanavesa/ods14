@@ -43,7 +43,6 @@ body {
     height: 150px; /* Ocupa a altura total da tela */
     display: flex;
     align-items: center;
-    justify-content: ;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -54,9 +53,7 @@ body {
     font-size: 16px;
     text-decoration: none;
 }
-.icones-footers a:hover {
-    
-}
+
 /* Estilo para o h1 sobre o GIF */
 .img h1 {
     font-size: 2em; /* Ajuste o tamanho conforme necessário */
@@ -117,3 +114,18 @@ header{
     width: 100%;
     background-color: #0f014e;
 }
+
+.videos {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Opcional: define altura para alinhar verticalmente */
+}
+
+.link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
