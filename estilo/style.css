@@ -20,9 +20,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  .imagem-fixa {
+}
+.imagem-fixa {
     background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
     background-size: cover;
     background-position: center;
@@ -34,7 +33,6 @@ body {
     color: white;
     text-align: center;
 }
-
 /* Estilo para o h1 sobre o GIF */
 .img h1 {
     font-size: 2em; /* Ajuste o tamanho conforme necessário */
@@ -42,21 +40,17 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para melhorar a visibilidade */
     position: absolute;
 }
-
 /* Estilo para o conteúdo abaixo do GIF */
 .conteudo {
     padding: 20px;
     height: 200vh; /* Para criar a rolagem */
 }
-
-
 h2{
     color: rgb(12, 12, 95);
 }
 h3{
     color: rgb(12, 12, 95);
 }
-
 nav li{
 display: inline-block;
 }
@@ -66,4 +60,8 @@ nav li a{
     text-decoration: none;
     padding: 15px;
 }
-
+header{
+    height: 200px;
+    width: 100%;
+    background-color: #077cdb;
+}
