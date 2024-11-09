@@ -7,19 +7,6 @@
     height: 100vh;
     margin: 0;
 }
-#nav_main{
-    text-align: center;
-    display: inline-block;
-    width: 500px;
-    height: 5px;
-    /* background-color: cadetblue; */
-    margin-top: 20px;
-    text-transform: uppercase;
-    margin-left: 400px;
-   
-   
-
-}
 #nav_main a {
     padding: 5px;
     font-weight: 600;
@@ -37,6 +24,16 @@
 .menu_atual{
     border-bottom: 2px solid #f4f4f4;
     transition: border-bottom-color 0.8s eas
+}
+#nav_main{
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+    height: 5px;
+    /* background-color: cadetblue; */
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-left: 400px;
 }
 header{
     height: 200px;
