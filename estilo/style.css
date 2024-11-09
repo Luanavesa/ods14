@@ -1,6 +1,13 @@
 
 
 
+img2{
+    height: 300px; /* Ocupa a altura total da tela */
+    width: 300px; /* Ocupa a largura total da tela */
+    display: block;     /* Torna a imagem um bloco para usar margin */
+    margin-left: auto;  /* Margem esquerda automática */
+    margin-right: auto
+}
 
 img{
     height: 300px; /* Ocupa a altura total da tela */
