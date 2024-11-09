@@ -47,6 +47,24 @@ header{
     margin-right: auto;
     margin-left: auto;
 }
+.imagem-fixa2 {
+    background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 150px; /* Ocupa a altura total da tela */
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.icones-footer {
+    color: white;
+    margin: 170px;
+    font-size: 16px;
+    text-decoration: none;
+}
 .form-group {
     margin-bottom: 15px;
 }
@@ -74,7 +92,6 @@ button {
 button:hover {
     background-color: #077cdb;
 }
-
 .imagem-fixa {
     background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
     background-size: cover;
