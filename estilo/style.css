@@ -148,6 +148,22 @@ a {
 a:hover{
     color: #00b3ff;
     transition: all 0.8s;
-    transition:0.8s ease;}
+    transition:0.8s ease;
+}
+
+
+
+#subir {
+    width: 50px; /* Ajuste o valor conforme desejado */
+    height: 50px; /* Ajuste o valor conforme desejado */
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+
+
+
+    
     
 
