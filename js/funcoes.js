@@ -1,14 +1,30 @@
+function exibirDados() {
+    // Pegando os valores dos inputs
+    var nome = document.getElementById("nome").value;
+    var email = document.getElementById("email").value;
+    var telefone = document.getElementById("telefone").value;
+    var opcao = document.getElementById("opcao").value;
+    var mensagem = document.getElementById("mensagem").value;
 
-function processForm() {
-    // Obtém os valores do formulário
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const age = document.getElementById('age').value;
+    // Pegando os valores dos checkboxes
+    var preferencias = [];
+    var checkboxes = document.querySelectorAll('input[name="preferencia"]:checked');
+    checkboxes.forEach(function(checkbox) {
+        preferencias.push(checkbox.value);
+    });
 
-    // Processa os dados
-    const message = `Olá, ${name}!<br>Seu e-mail é ${email} e você tem ${age} anos.`;
-
-    // Exibe o resultado
-    document.getElementById('resultText').innerHTML = message;
-    document.getElementById('resultContainer').style.display = 'block';
+    // Verificando se todos os campos foram preenchidos
+    if (nome && email && telefone && mensagem) {
+        var resultadoDiv = document.getElementById("resultado");
+        resultadoDiv.innerHTML = "<h3>Dados Confirmados:</h3>" +
+                                  "<p><strong>Nome:</strong> " + nome + "</p>" +
+                                  "<p><strong>E-mail:</strong> " + email + "</p>" +
+                                  "<p><strong>Telefone:</strong> " + telefone + "</p>" +
+                                  "<p><strong>Opção escolhida:</strong> " + opcao + "</p>" +
+                                  "<p><strong>Mensagem:</strong> " + mensagem + "</p>" +
+                                  "<p><strong>Preferências:</strong> " + (preferencias.length ? preferencias.join(", ") : "Nenhuma") + "</p>";
+    } else {
+        // Se algum campo estiver vazio, avisar o usuário
+        alert("Por favor, preencha todos os campos obrigatórios!");
+    }
 }
