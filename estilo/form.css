@@ -105,46 +105,48 @@ button:hover {
     background-color: #077cdb;
 }
 .imagem-fixa {
-    background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 200px; /* Ocupa a altura total da tela */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}
+background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 200px; /* Ocupa a altura total da tela */
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+text-align: center;}
 a {
-    padding: 5px;
-    font-weight: 600;
-    text-decoration:none;
-    color: hsl(0, 0%, 100%);
-    
-
-}
+padding: 5px;
+font-weight: 600;
+text-decoration:none;
+color: hsl(0, 0%, 100%);}
 a:hover{
-    color: #00b3ff;
-    transition: all 0.8s;
-    transition:0.8s ease;}
+color: #00b3ff;
+transition: all 0.8s;
+transition:0.8s ease;}
 
     .resultado {
-        margin-top: 20px;
-        padding: 10px;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;}
+margin-top: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+background-color: #f9f9f9;}
 
-        @media (max-width: 768px) {
-            header {
-                height: 150px;
-                padding: 5px;
-                font-size: 18px;
-            }
-        }
+@media (max-width: 768px) {
+header {
+height: 150px;
+padding: 5px;
+font-size: 18px;}
+}
 
-        #h1{
-            padding: 5px;
-            margin: 50px;
-            border: 10px;
-        }
+#h1{
+padding: 5px;
+margin: 50px;
+border: 10px;
+}
+#subir {
+    width: 50px; /* Ajuste o valor conforme desejado */
+    height: 50px; /* Ajuste o valor conforme desejado */
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
