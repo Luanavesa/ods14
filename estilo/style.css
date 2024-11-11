@@ -20,7 +20,8 @@ main{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0)
+    background-color: rgba(255, 255, 255, 0);
+    height: 700px
  
 }
 body {
@@ -60,6 +61,9 @@ body {
     font-size: 16px;
     text-decoration: none;
     box-decoration-break: none;
+}
+.conteudo2{
+    height: 2000px;
 }
 
 /* Estilo para o h1 sobre o GIF */
@@ -110,7 +114,7 @@ nav li a{
 #nav_main{
     text-align: center;
     display: inline-block;
-    width: 500px;
+    width: 700px;
     height: 5px;
     /* background-color: cadetblue; */
     margin-top: 20px;
@@ -161,6 +165,14 @@ a:hover{
     right: 10px;
 }
 
+#pe{
+    height: auto;
+
+}
+
+footer a{
+    text-align: justify;
+}
 
 
 
