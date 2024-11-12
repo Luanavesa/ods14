@@ -64,7 +64,19 @@
             <button type="button" onclick="exibirDados()">Confirmar</button>
         </form>
         <div id="resultado" class="resultado"></div>
-    </main>
+    </main><a href="#principal" id="backToTop">
+        <img id="subir" src="./img/seta.png" alt="volte ao topo" title="voltar ao topo">
+    </a>
+    <script>
+        // JavaScript para rolar suavemente ao topo ao clicar no botão
+        document.getElementById("backToTop").addEventListener("click", function(event) {
+            event.preventDefault(); // Evita comportamento padrão do link
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
         </div>
         <footer><div class="imagem-fixa2">
             <div class="icones-footer">
