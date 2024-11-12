@@ -25,23 +25,20 @@ body {
     transition: border-bottom-color 0.8s eas
 }
 #nav_main{
+    text-align: center;
+    display: inline-block;
     width: 100%;
+    height: 5px;
+    /* background-color: cadetblue; */
     margin-top: 20px;
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin-left: 4px;
 }
 header{
-    height: 150px;
+    height: 200px;
     width: 100%;
-    background-color: #ffffff;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
+    background-color: #0f014e;
+    background-attachment: fixed;
 }
 .form-container {
     width: 100%;
@@ -109,12 +106,13 @@ button:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 200px; /* Ocupa a altura total da tela */
+    height: 150px; /* Ocupa a altura total da tela */
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 a {
     padding: 5px;
@@ -135,16 +133,4 @@ a:hover{
         border: 1px solid #ccc;
         background-color: #f9f9f9;}
 
-        @media (max-width: 768px) {
-            header {
-                height: 150px;
-                padding: 5px;
-                font-size: 18px;
-            }
-        }
-
-        #h1{
-            padding: 5px;
-            margin: 50px;
-            border: 10px;
-        }
+       
