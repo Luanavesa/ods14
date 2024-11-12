@@ -106,12 +106,13 @@ button:hover {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 200px; /* Ocupa a altura total da tela */
+    height: 150px; /* Ocupa a altura total da tela */
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 a {
 padding: 5px;
@@ -129,16 +130,5 @@ padding: 10px;
 border: 1px solid #ccc;
 background-color: #f9f9f9;}
 
-        @media (max-width: 768px) {
-            header {
-                height: 150px;
-                padding: 5px;
-                font-size: 18px;
-            }
-        }
+    
 
-        #h1{
-            padding: 5px;
-            margin: 50px;
-            border: 10px;
-        }
