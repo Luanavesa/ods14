@@ -253,9 +253,25 @@ img{
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    margin: 0 10px;
-    align-items: center;
+    pointer-events: all; 
+    opacity: 0.8; 
+    text-align: center;    
 }
+.carousel-button:hover {
+    background-color: #0056b3;
+    opacity: 1;
+}
+.carousel-nav {
+    position: absolute;
+    bottom: 5%; /* Centraliza verticalmente */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Posiciona os botões nos lados */
+    transform: translateY(-50%); /* Ajusta a posição para o centro exato */
+    pointer-events: none;
+}
+
 
 
 @media (max-width: 768px) {
