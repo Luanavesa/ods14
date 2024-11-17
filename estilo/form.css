@@ -36,41 +36,49 @@ body {
     margin-left: 4px;
 }
 header{
-    height: 200px;
+    height: 210px;
     width: 100%;
     background-color: #0f014e;
     background-attachment: fixed;
+    text-align: center;
+            
 }
-.form-container {
-    width: 100%;
-    max-width: 400px;
-    padding: 100px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+main{
+    height: 900px; /* Para criar a rolagem */
     margin-right: auto;
     margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 400px;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+
+}
+#formulario {
+    max-width: 600px; /* Limita a largura máxima */
+    padding: 10px; /* Adiciona espaçamento interno para conforto */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+    font-size: 16px; 
 }
 .imagem-fixa2 {
     background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 200px; /* Ocupa a altura total da tela */
+    height: 150px; /* Ocupa a altura total da tela */
     display: flex;
     align-items: center;
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 100%;
 }
 .icones-footer {
     color: white;
     margin: 170px;
     font-size: 16px;
     text-decoration: none;
+    display: flex;
 }
 .form-group {
     margin-bottom: 15px;
@@ -82,13 +90,17 @@ label {
 }
 input, textarea {
     width: 100%;
-    padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 5px;
+    max-width: 600px; /* Limita a largura máxima */
+    padding: 1px; /* Adiciona espaçamento interno para conforto */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+    font-size: 16px; /
+    
 }
 button {
     width: 100%;
-    padding: 10px;
+    max-width: 900px;
     background-color: #4c66af;
     color: white;
     border: none;
@@ -142,12 +154,16 @@ background-color: #f9f9f9;}
 
 
 @media (max-width: 768px) {
-    .form-container {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+   #formulario {
         flex-direction: column;
         align-items: center;
     }
 
-    .menu-item {
+    #nav_main {
         margin: 10px 0;
     }
 }
@@ -156,9 +172,16 @@ background-color: #f9f9f9;}
     body {
         font-size: 16px;
     }
-
-    .button {
+    #nav_main{
         width: 100%;
         padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    input, textarea {
+        font-size: 14px; /* Ajusta o tamanho da fonte para telas pequenas */
+        padding: 8px; /* Reduz o espaçamento interno */
+        padding-left: 100%;
     }
 }
