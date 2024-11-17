@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: content-box;
     font-family: Arial, sans-serif;
+    border:1px solid rgb(12, 12, 95);
 }
 #nav_main a {
     padding: 5px;
@@ -131,4 +132,10 @@ border: 1px solid #ccc;
 background-color: #f9f9f9;}
 
     
-
+#subir {
+    width: 50px; /* Ajuste o valor conforme desejado */
+    height: 50px; /* Ajuste o valor conforme desejado */
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}

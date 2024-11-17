@@ -21,14 +21,23 @@ main{
     margin-right: auto;
     width: 80%;
     background-color: rgba(255, 255, 255, 0);
-    height: 700px
- 
+    
+
+
 }
 body {
-    margin: 0;
-    padding: 0;
+    margin-left:8px;
+    margin-right:8px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    border:1px solid rgb(12, 12, 95);
+    
+    
+    
+   
+
+
 }
 .imagem-fixa {
     background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
@@ -42,6 +51,8 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
+
+    
 }
 .imagem-fixa2 {
     background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
@@ -75,8 +86,8 @@ body {
 }
 /* Estilo para o conteúdo abaixo do GIF */
 .conteudo {
-    padding: 20px;
-    height: 200vh; /* Para criar a rolagem */
+    padding: 2px;
+    height: 70%; /* Para criar a rolagem */
 }
 h2{
     color: rgb(12, 12, 95);
@@ -165,13 +176,15 @@ a:hover{
     right: 10px;
 }
 
-#pe{
-    height: auto;
 
-}
+
+
+
 
 footer a{
     text-align: justify;
+    height: 75px;
+    
 }
 
 #faleconosco{
@@ -181,7 +194,36 @@ footer a{
     left: 10px;
     height: 75px;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+img{
+    width: 555px;
+    /* Espaçamento adicional apenas para a imagem */
+       
+}
 
-    
-    
+#main2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 20000px;
 
+
+}
