@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border:1px solid rgb(12, 12, 95);
+    font-size: 20px;
+  }
+
+  .conteudo {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2, h3 {
+    color: #0056b3;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+
+  ul {
+    padding-left: 0px;
+  }
+
+  
+  .main-content {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    gap: 20px; /* Espaçamento entre os elementos */
+
+  }
+
+  .main-content > div {
+    flex: 1; /* Divide o espaço igualmente entre os itens */
+    min-width: 350px; /* Largura mínima para itens */
+    padding: 15px;
+    background-color: #eaf4fc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left:5px;
+    margin-right: 5px;
+  }
+
+  .main-content .img-container {
+    text-align: center; /* Centraliza a imagem dentro do bloco */
+  }
+
+#impacto{
+    margin-left: 35px;
+}
+
+  .social {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  img2{
+    height: 300px; 
+    width: 300px; 
+    display: block;     
+    margin-left: auto;  
+    margin-right: auto
+}
+
+img{
+    height: 300px; 
+    width: 600px; 
+    display: block;     
+    margin-left: auto;  
+    margin-right: auto
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    
+
+
+}
+
+.imagem-fixa {
+    background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 150px; /* Ocupa a altura total da tela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+.imagem-fixa2 {
+    background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 150px; /* Ocupa a altura total da tela */
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.icones-footer {
+    color: white;
+    margin: 170px;
+    font-size: 16px;
+    text-decoration: none;
+    box-decoration-break: none;
+}
+
+h2{
+    color: rgb(12, 12, 95);
+}
+h3{
+    color: rgb(12, 12, 95);
+}
+nav li{
+display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#nav_main a {
+    padding: 5px;
+    font-weight: 600;
+    text-decoration:none;
+    color: hsl(0, 0%, 100%);
+    
+
+}
+#nav_main a:hover{
+    color: #fdfdfd;
+    transition: all 0.8s;
+    border-bottom: 2px solid #f4f4f4;
+    transition: border-bottom-color 0.8s ease;
+}
+.menu_atual{
+    border-bottom: 2px solid #f4f4f4;
+    transition: border-bottom-color 0.8s eas
+}
+#nav_main{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    /* background-color: cadetblue; */
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-left: 4px;
+    
+
+}
+header{
+    height: 210px;
+    width: 100%;
+    background-color: #0f014e;
+    background-attachment: fixed;
+}
+
+.videos {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Opcional: define altura para alinhar verticalmente */
+}
+
+.link {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    color: #0f014e;
+}
+
+a {
+    padding: 5px;
+    font-weight: 600;
+    text-decoration:none;
+    color: hsl(0, 0%, 100%);
+    
+
+}
+a:hover{
+    color: #00b3ff;
+    transition: all 0.8s;
+    transition:0.8s ease;
+}
+#subir {
+    width: 50px; /* Ajuste o valor conforme desejado */
+    height: 50px; /* Ajuste o valor conforme desejado */
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
+
+
+
+
+
+
+footer a{
+    text-align: justify;
+    height: 75px;
+    
+}
+
+#faleconosco{
+    width: 75px;
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+    height: 75px;
+}
+
+#sobre{
+    border: #0f014e solid 1px;
+    padding: 8px;
+}
