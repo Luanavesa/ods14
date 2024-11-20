@@ -276,3 +276,19 @@ main {
       object-fit: cover;
     }
   }
+
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2em;
+      text-align: center;
+    }
+}

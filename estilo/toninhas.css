@@ -48,7 +48,7 @@ body {
 
   .main-content > div {
     flex: 1; /* Divide o espaço igualmente entre os itens */
-    min-width: 350px; /* Largura mínima para itens */
+    min-width: 245px; /* Largura mínima para itens */
     padding: 15px;
     background-color: #eaf4fc;
     border-radius: 8px;
@@ -240,4 +240,20 @@ footer a{
 #sobre{
     border: #0f014e solid 1px;
     padding: 8px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2em;
+      text-align: center;
+    }
 }
