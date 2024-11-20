@@ -21,6 +21,7 @@ main{
     margin-right: auto;
     width: 80%;
     background-color: rgba(255, 255, 255, 0);
+    height: 700px;
     
 
 
@@ -74,7 +75,7 @@ body {
     box-decoration-break: none;
 }
 .conteudo2{
-    height: 900px;
+    height: 1100px;
     position: relative;
     overflow: hidden; /* Esconde os conteúdos fora da área visível */
     width: 100%;
@@ -82,6 +83,7 @@ body {
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
 }
 
 /* Estilo para o h1 sobre o GIF */
@@ -225,8 +227,7 @@ tr:hover {
 img{
     width: 555px;
     max-width: 100%;
-    height: auto;
-    padding-bottom: 10px;
+    
     /* Espaçamento adicional apenas para a imagem */
        
 }

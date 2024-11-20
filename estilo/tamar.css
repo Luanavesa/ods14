@@ -52,23 +52,23 @@ body {
     
 }
 .imagem-fixa2 {
-    background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 150px; /* Ocupa a altura total da tela */
-    display: flex;
-    align-items: center;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+  background-image: url('../img/Cal.gif'); /* Substitua pelo caminho do seu GIF */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 150px; /* Ocupa a altura total da tela */
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 .icones-footer {
-    color: white;
-    margin: 170px;
-    font-size: 16px;
-    text-decoration: none;
-    box-decoration-break: none;
+  color: white;
+  margin: 170px;
+  font-size: 16px;
+  text-decoration: none;
+  box-decoration-break: none;
 }
 .conteudo2{
     height: 900px;
@@ -156,24 +156,24 @@ header{
 }
 
 .link {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    color: #0f014e;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  color: #0f014e;
 }
 
 a {
-    padding: 5px;
-    font-weight: 600;
-    text-decoration:none;
-    color: hsl(0, 0%, 100%);
-    
+  padding: 5px;
+  font-weight: 600;
+  text-decoration:none;
+  color: hsl(0, 0%, 100%);
+  
 
 }
 a:hover{
-    color: #00b3ff;
-    transition: all 0.8s;
-    transition:0.8s ease;
+  color: #00b3ff;
+  transition: all 0.8s;
+  transition:0.8s ease;
 }
 #subir {
     width: 50px; /* Ajuste o valor conforme desejado */
