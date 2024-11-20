@@ -23,8 +23,7 @@ main{
 
 }
 body {
-    margin-left:auto;
-    margin-right:auto;
+   margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
