@@ -9,7 +9,7 @@ function exibirDados() {
     // Pegando os valores dos checkboxes
     var preferencias = [];
     var checkboxes = document.querySelectorAll('input[name="preferencia"]:checked');
-    checkboxes.forEach(function(checkbox) {
+    checkboxes.forEach(function (checkbox) {
         preferencias.push(checkbox.value);
     });
 
@@ -17,12 +17,18 @@ function exibirDados() {
     if (nome && email && telefone && mensagem) {
         var resultadoDiv = document.getElementById("resultado");
         resultadoDiv.innerHTML = "<h3>Dados Confirmados:</h3>" +
-                                  "<p><strong>Nome:</strong> " + nome + "</p>" +
-                                  "<p><strong>E-mail:</strong> " + email + "</p>" +
-                                  "<p><strong>Telefone:</strong> " + telefone + "</p>" +
-                                  "<p><strong>Opção escolhida:</strong> " + opcao + "</p>" +
-                                  "<p><strong>Mensagem:</strong> " + mensagem + "</p>" +
-                                  "<p><strong>Preferências:</strong> " + (preferencias.length ? preferencias.join(", ") : "Nenhuma") + "</p>";
+            "<p><strong>Nome:</strong> " + nome + "</p>" +
+            "<p><strong>E-mail:</strong> " + email + "</p>" +
+            "<p><strong>Telefone:</strong> " + telefone + "</p>" +
+            "<p><strong>Opção escolhida:</strong> " + opcao + "</p>" +
+            "<p><strong>Mensagem:</strong> " + mensagem + "</p>" +
+            "<p><strong>Preferências:</strong> " + (preferencias.length ? preferencias.join(", ") : "Nenhuma") + "</p>";
+
+        // Alterar a cor do botão
+        var botao = document.getElementById("confirmar");
+        botao.style.backgroundColor = "#48b41d"; // Azul
+        botao.style.color = "#FFFFFF"; // Texto branco
+        botao.style.border = "none"; // Remover borda
     } else {
         // Se algum campo estiver vazio, avisar o usuário
         alert("Por favor, preencha todos os campos obrigatórios!");
